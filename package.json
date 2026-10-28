@@ -1,0 +1,16 @@
+{
+  "name": "crystal-island",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare-web": "mkdir -p www && cp index.html www/ && cp node_modules/three/build/three.min.js www/"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.1.2",
+    "@capacitor/core": "6.1.2",
+    "three": "0.128.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.1.2"
+  }
+}
